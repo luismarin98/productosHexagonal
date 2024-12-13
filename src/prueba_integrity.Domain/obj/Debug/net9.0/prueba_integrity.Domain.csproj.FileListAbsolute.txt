@@ -1,0 +1,12 @@
+C:\Users\LuisMarin\Desktop\PruebaIntegrity\src\prueba_integrity.Domain\bin\Debug\net9.0\prueba_integrity.Domain.deps.json
+C:\Users\LuisMarin\Desktop\PruebaIntegrity\src\prueba_integrity.Domain\bin\Debug\net9.0\prueba_integrity.Domain.dll
+C:\Users\LuisMarin\Desktop\PruebaIntegrity\src\prueba_integrity.Domain\bin\Debug\net9.0\prueba_integrity.Domain.pdb
+C:\Users\LuisMarin\Desktop\PruebaIntegrity\src\prueba_integrity.Domain\obj\Debug\net9.0\prueba_integrity.Domain.csproj.AssemblyReference.cache
+C:\Users\LuisMarin\Desktop\PruebaIntegrity\src\prueba_integrity.Domain\obj\Debug\net9.0\prueba_integrity.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LuisMarin\Desktop\PruebaIntegrity\src\prueba_integrity.Domain\obj\Debug\net9.0\prueba_integrity.Domain.AssemblyInfoInputs.cache
+C:\Users\LuisMarin\Desktop\PruebaIntegrity\src\prueba_integrity.Domain\obj\Debug\net9.0\prueba_integrity.Domain.AssemblyInfo.cs
+C:\Users\LuisMarin\Desktop\PruebaIntegrity\src\prueba_integrity.Domain\obj\Debug\net9.0\prueba_integrity.Domain.csproj.CoreCompileInputs.cache
+C:\Users\LuisMarin\Desktop\PruebaIntegrity\src\prueba_integrity.Domain\obj\Debug\net9.0\prueba_integrity.Domain.dll
+C:\Users\LuisMarin\Desktop\PruebaIntegrity\src\prueba_integrity.Domain\obj\Debug\net9.0\refint\prueba_integrity.Domain.dll
+C:\Users\LuisMarin\Desktop\PruebaIntegrity\src\prueba_integrity.Domain\obj\Debug\net9.0\prueba_integrity.Domain.pdb
+C:\Users\LuisMarin\Desktop\PruebaIntegrity\src\prueba_integrity.Domain\obj\Debug\net9.0\ref\prueba_integrity.Domain.dll

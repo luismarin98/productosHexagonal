@@ -1,0 +1,5 @@
+C:\Users\LuisMarin\Desktop\PruebaIntegrity\src\prueba_integrity.Infraestructure\obj\Debug\net9.0\prueba_integrity.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\LuisMarin\Desktop\PruebaIntegrity\src\prueba_integrity.Infraestructure\obj\Debug\net9.0\prueba_integrity.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LuisMarin\Desktop\PruebaIntegrity\src\prueba_integrity.Infraestructure\obj\Debug\net9.0\prueba_integrity.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\LuisMarin\Desktop\PruebaIntegrity\src\prueba_integrity.Infraestructure\obj\Debug\net9.0\prueba_integrity.Infraestructure.AssemblyInfo.cs
+C:\Users\LuisMarin\Desktop\PruebaIntegrity\src\prueba_integrity.Infraestructure\obj\Debug\net9.0\prueba_integrity.Infraestructure.csproj.CoreCompileInputs.cache

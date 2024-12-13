@@ -1,0 +1,58 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "prueba_integrity.Application/1.0.0": {
+        "dependencies": {
+          "modelo_canonico": "1.0.0",
+          "prueba_integrity.Domain": "1.0.0"
+        },
+        "runtime": {
+          "prueba_integrity.Application.dll": {}
+        }
+      },
+      "modelo_canonico/1.0.0": {
+        "runtime": {
+          "lib/net9.0/modelo_canonico.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "prueba_integrity.Domain/1.0.0": {
+        "dependencies": {
+          "modelo_canonico": "1.0.0"
+        },
+        "runtime": {
+          "prueba_integrity.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "prueba_integrity.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "modelo_canonico/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0HxwtTT6RzS4D/Y2GXyjsGTR/+nkb7CFhmts4v+v/+1Y+1j96ImJRH3goEAzg+wB27XlxR0/6M/Zf6SKVSX3FA==",
+      "path": "modelo_canonico/1.0.0",
+      "hashPath": "modelo_canonico.1.0.0.nupkg.sha512"
+    },
+    "prueba_integrity.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
