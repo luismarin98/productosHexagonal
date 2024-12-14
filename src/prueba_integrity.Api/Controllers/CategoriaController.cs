@@ -1,6 +1,4 @@
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using modelo_canonico.Models;
 using modelo_canonico.Types;
 using prueba_integrity.Application.Contracts;
 using prueba_integrity.Domain.Responses;

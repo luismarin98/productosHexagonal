@@ -38,11 +38,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Domain\\prueba_integrity.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Domain\\prueba_integrity.Domain.csproj",
       "projectName": "prueba_integrity.Domain",
-      "projectPath": "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Domain\\prueba_integrity.Domain.csproj",
+      "projectPath": "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Domain\\prueba_integrity.Domain.csproj",
       "packagesPath": "C:\\Users\\LuisMarin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Domain\\obj\\",
+      "outputPath": "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LuisMarin\\AppData\\Roaming\\NuGet\\NuGet.Config"

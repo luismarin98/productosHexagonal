@@ -1,5 +1,8 @@
 using System;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
+using modelo_canonico.Models;
+using modelo_canonico.Parsing;
 using modelo_canonico.Types;
 using prueba_integrity.Application.Contracts;
 using prueba_integrity.Infraestructure.Configuration;
@@ -18,11 +21,16 @@ public class OrdenCompraRepository : IOrdenCompraContract
         _logger = logger;
     }
 
-    public Task<bool> CreateOrdenCompra(OrdenCompraType proveedor)
+    public async Task<bool> CreateOrdenCompra(OrdenCompraType proveedor)
     {
         try
         {
             _logger.LogInformation("Inicia Metodo Repository");
+            OrdenCompraModel? model = ParsingOrdenCompra.ModelToType(proveedor);
+            _context.orden_compra.Add(model);
+            await _context.SaveChangesAsync();
+
+            return true;
         }
         catch (Exception ex)
         {
@@ -35,11 +43,17 @@ public class OrdenCompraRepository : IOrdenCompraContract
         }
     }
 
-    public Task<bool> DeleteOrdenCompra(int id)
+    public async Task<bool> DeleteOrdenCompra(int id)
     {
         try
         {
             _logger.LogInformation("Inicia Metodo Repository");
+            OrdenCompraModel? model = await _context.orden_compra.Where(x => x.Id == id).FirstOrDefaultAsync();
+            if (model is null) throw new ArgumentException("No se encontro la orden de compra especificada");
+            _context.orden_compra.Remove(model);
+            await _context.SaveChangesAsync();
+
+            return true;
         }
         catch (Exception ex)
         {
@@ -52,11 +66,14 @@ public class OrdenCompraRepository : IOrdenCompraContract
         }
     }
 
-    public Task<List<OrdenCompraType>> GetAllOrdenCompra()
+    public async Task<List<OrdenCompraType>> GetAllOrdenCompra()
     {
         try
         {
             _logger.LogInformation("Inicia Metodo Repository");
+            List<OrdenCompraModel> ListaOrdenes = await _context.orden_compra.ToListAsync();
+            if (ListaOrdenes.Count is 0) throw new ArgumentException("Sin resultados");
+            return ParsingOrdenCompra.ListModelToType(ListaOrdenes);
         }
         catch (Exception ex)
         {
@@ -69,11 +86,14 @@ public class OrdenCompraRepository : IOrdenCompraContract
         }
     }
 
-    public Task<OrdenCompraType> GetOrdenCompraID(int id)
+    public async Task<OrdenCompraType> GetOrdenCompraID(int id)
     {
         try
         {
             _logger.LogInformation("Inicia Metodo Repository");
+            OrdenCompraModel? model = await _context.orden_compra.Where(x => x.Id == id).FirstOrDefaultAsync();
+            if (model is null) throw new ArgumentException("No se encontro la orden de compra especificada");
+            return ParsingOrdenCompra.ModelTotype(model);
         }
         catch (Exception ex)
         {
@@ -86,11 +106,18 @@ public class OrdenCompraRepository : IOrdenCompraContract
         }
     }
 
-    public Task<bool> UpdateOrdenCompra(OrdenCompraType proveedor)
+    public async Task<bool> UpdateOrdenCompra(OrdenCompraType proveedor)
     {
         try
         {
             _logger.LogInformation("Inicia Metodo Repository");
+            OrdenCompraModel? model = await _context.orden_compra.Where(x => x.Id == proveedor.Id).FirstOrDefaultAsync();
+            if (model is null) throw new ArgumentException("No se encontro la orden de compra especificada");
+            model = ParsingOrdenCompra.ModelToType(proveedor);
+            _context.orden_compra.Update(model);
+            await _context.SaveChangesAsync();
+
+            return true;
         }
         catch (Exception ex)
         {

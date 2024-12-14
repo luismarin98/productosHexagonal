@@ -3339,11 +3339,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Api\\prueba_integrity.Api.csproj",
+      "projectUniqueName": "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Api\\prueba_integrity.Api.csproj",
       "projectName": "prueba_integrity.Api",
-      "projectPath": "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Api\\prueba_integrity.Api.csproj",
+      "projectPath": "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Api\\prueba_integrity.Api.csproj",
       "packagesPath": "C:\\Users\\LuisMarin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Api\\obj\\",
+      "outputPath": "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LuisMarin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3358,8 +3358,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Infraestructure\\prueba_integrity.Infraestructure.csproj": {
-              "projectPath": "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Infraestructure\\prueba_integrity.Infraestructure.csproj"
+            "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Infraestructure\\prueba_integrity.Infraestructure.csproj": {
+              "projectPath": "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Infraestructure\\prueba_integrity.Infraestructure.csproj"
             }
           }
         }

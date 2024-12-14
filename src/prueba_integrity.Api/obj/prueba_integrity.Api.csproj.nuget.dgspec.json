@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Api\\prueba_integrity.Api.csproj": {}
+    "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Api\\prueba_integrity.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Api\\prueba_integrity.Api.csproj": {
+    "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Api\\prueba_integrity.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Api\\prueba_integrity.Api.csproj",
+        "projectUniqueName": "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Api\\prueba_integrity.Api.csproj",
         "projectName": "prueba_integrity.Api",
-        "projectPath": "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Api\\prueba_integrity.Api.csproj",
+        "projectPath": "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Api\\prueba_integrity.Api.csproj",
         "packagesPath": "C:\\Users\\LuisMarin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Api\\obj\\",
+        "outputPath": "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LuisMarin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Infraestructure\\prueba_integrity.Infraestructure.csproj": {
-                "projectPath": "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Infraestructure\\prueba_integrity.Infraestructure.csproj"
+              "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Infraestructure\\prueba_integrity.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Infraestructure\\prueba_integrity.Infraestructure.csproj"
               }
             }
           }
@@ -84,14 +84,14 @@
         }
       }
     },
-    "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Application\\prueba_integrity.Application.csproj": {
+    "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Application\\prueba_integrity.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Application\\prueba_integrity.Application.csproj",
+        "projectUniqueName": "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Application\\prueba_integrity.Application.csproj",
         "projectName": "prueba_integrity.Application",
-        "projectPath": "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Application\\prueba_integrity.Application.csproj",
+        "projectPath": "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Application\\prueba_integrity.Application.csproj",
         "packagesPath": "C:\\Users\\LuisMarin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Application\\obj\\",
+        "outputPath": "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LuisMarin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -106,8 +106,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Domain\\prueba_integrity.Domain.csproj": {
-                "projectPath": "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Domain\\prueba_integrity.Domain.csproj"
+              "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Domain\\prueba_integrity.Domain.csproj": {
+                "projectPath": "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Domain\\prueba_integrity.Domain.csproj"
               }
             }
           }
@@ -153,14 +153,14 @@
         }
       }
     },
-    "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Domain\\prueba_integrity.Domain.csproj": {
+    "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Domain\\prueba_integrity.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Domain\\prueba_integrity.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Domain\\prueba_integrity.Domain.csproj",
         "projectName": "prueba_integrity.Domain",
-        "projectPath": "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Domain\\prueba_integrity.Domain.csproj",
+        "projectPath": "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Domain\\prueba_integrity.Domain.csproj",
         "packagesPath": "C:\\Users\\LuisMarin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Domain\\obj\\",
+        "outputPath": "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LuisMarin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -218,14 +218,14 @@
         }
       }
     },
-    "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Infraestructure\\prueba_integrity.Infraestructure.csproj": {
+    "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Infraestructure\\prueba_integrity.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Infraestructure\\prueba_integrity.Infraestructure.csproj",
+        "projectUniqueName": "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Infraestructure\\prueba_integrity.Infraestructure.csproj",
         "projectName": "prueba_integrity.Infraestructure",
-        "projectPath": "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Infraestructure\\prueba_integrity.Infraestructure.csproj",
+        "projectPath": "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Infraestructure\\prueba_integrity.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\LuisMarin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Infraestructure\\obj\\",
+        "outputPath": "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LuisMarin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -240,8 +240,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Application\\prueba_integrity.Application.csproj": {
-                "projectPath": "C:\\Users\\LuisMarin\\Desktop\\PruebaIntegrity\\src\\prueba_integrity.Application\\prueba_integrity.Application.csproj"
+              "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Application\\prueba_integrity.Application.csproj": {
+                "projectPath": "C:\\Users\\LuisMarin\\Desktop\\productosHexagonal\\src\\prueba_integrity.Application\\prueba_integrity.Application.csproj"
               }
             }
           }
